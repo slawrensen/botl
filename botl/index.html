@@ -1,26 +1,30 @@
 ﻿<!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
-    <title>SharedHomeLab Portal></title>
+    <title>Break on The Lake Resort ></title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="SharedHomeLab">
     <!-- AngularUI Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/shl.css" />
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="scripts/app.js"></script>
 </head>
 
-<body ng-app="SharedHomeLab">
+<body ng-app="breakOnTheLake">
 
     <div ng-include='"./templates/header.html"'></div>
     <div ng-view></div>
     <div ng-include='"./templates/footer.html"'></div>
 
+
+
 </body>
 
 
-<script src="scripts/angular.js"></script>
-<script src="scripts/angular-route.min.js"></script>
-<script src="scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
-<script src="scripts/app.js"></script>
+
 </html>
